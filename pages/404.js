@@ -10,7 +10,6 @@ export async function getStaticProps(props) {
   return {
     props: {
       randomNumber
-    },
-    revalidate: 1
+    }
   }
 }
